@@ -15,3 +15,6 @@ alias gco="git checkout"
 alias gd="git diff"
 
 alias c="clear"
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
