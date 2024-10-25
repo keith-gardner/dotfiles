@@ -21,20 +21,10 @@ set cursorcolumn
 
 syntax on
 
-" vim 7.4 backspace fix
-set backspace=indent,eol,start
-
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-
-if has("gui_running")
-  set bs=2
-  set ruler
-  set gfn=Monaco:h16
-  set shell=/bin/bash
-endif
 
 " Fuzzy search to open files. Use ctrl+P
 Plugin 'kien/ctrlp.vim'
